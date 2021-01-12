@@ -1,3 +1,12 @@
+/*************general
+*************/
+*{
+ background-color: beige;   
+}
+
+/********main page
+************/
+
 
 /******** blog 1
 *****************/
@@ -7,6 +16,3 @@
 
 /*********blog 2
 ******************/
-div{
-    background-color:burlywood ;
-}
