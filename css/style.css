@@ -18,13 +18,25 @@
 
 @media screen and (max-width: 600px){
     .img1{
-        width: 400px;
+        width: 370px;
+        padding: 10px 0;
+        margin: 0;
     }
-    
+
+    li{
+        
+    }
+
+    #blog1main{
+        padding: 0;
+        margin: 0;
+        line-height: 23px;
+    }
 }
 
 #blog1main{
     padding: 0px 50px;
+    text-align: justify;
 }
 h3{
     background-color: aqua; 
