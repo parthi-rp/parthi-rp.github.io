@@ -12,8 +12,16 @@
 /******** blog 1
 *****************/
 .img1{
-    width: 900px;
+    width: auto;
 }
+
+@media screen and (max-width: 600px){
+    .img1{
+        width: 500px;
+    }
+    
+}
+
 
 /*********blog 2
 ******************/
