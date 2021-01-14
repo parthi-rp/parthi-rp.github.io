@@ -1,8 +1,11 @@
 /*************general
 *************/
-*{
+html{
  background-color: beige;
+ font-family: 'Catamaran', sans-serif;
+ line-height: 1.2em;
 }
+
 
 
 /********main page
