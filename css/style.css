@@ -12,30 +12,12 @@
 /******** blog 1
 *****************/
 .img1{
-    width: 900px;
-    padding: 10px;
-}
-
-@media screen and (max-width: 600px){
-    .img1{
-        width: 370px;
-        padding: 10px 0;
-        margin: 0;
-    }
-
-    li{
-        
-    }
-
-    #blog1main{
-        padding: 0;
-        margin: 0;
-        line-height: 23px;
-    }
+    margin: 10px;
 }
 
 #blog1main{
-    padding: 0px 50px;
+    padding: 0px 300px;
+    
     
 }
 h3{
@@ -44,3 +26,7 @@ h3{
 
 /*********blog 2
 ******************/
+
+#blog2main{
+    padding: 0px 300px;
+}
