@@ -6,7 +6,15 @@ html{
  line-height: 1.2em;
 }
 
+@media screen and (min-width: 600px){
+    #blog1main{
+        padding: 0px 300px;  
+    }
+    #blog2main{
+        padding: 0px 300px;
+    }
 
+}
 
 /********main page
 ************/
@@ -18,11 +26,7 @@ html{
     margin: 10px;
 }
 
-#blog1main{
-    padding: 0px 300px;
-    
-    
-}
+
 h3{
     background-color: aqua; 
 }
@@ -30,6 +34,3 @@ h3{
 /*********blog 2
 ******************/
 
-#blog2main{
-    padding: 0px 300px;
-}
