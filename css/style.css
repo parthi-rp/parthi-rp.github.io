@@ -7,11 +7,8 @@ html{
 }
 
 @media screen and (min-width: 600px){
-    #blog1main{
+    main{
         padding: 0px 300px;  
-    }
-    #blog2main{
-        padding: 0px 300px;
     }
 
 }
