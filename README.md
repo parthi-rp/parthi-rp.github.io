@@ -1,6 +1,7 @@
 ## Welcome to my GitHub Pages
 
-I building this page to showcase my html and css knowledge.
+Hello World, 
+I am Parthiban, front-end developer and technical writer. This is my portfolio page.
 
-I welcome any feedbacks towards this.
+Any suggestion or feebacks are welcome.
 
