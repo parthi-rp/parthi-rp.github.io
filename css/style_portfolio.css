@@ -25,3 +25,11 @@ h4 > .work {
   margin: 0%;
   font-weight: normal;
 }
+
+abbr {
+  border-style: double;
+  color: brown;
+}
+footer a {
+  padding: 10px;
+}
