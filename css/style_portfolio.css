@@ -33,3 +33,16 @@ abbr {
 footer a {
   padding: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  html {
+    padding: 0;
+  }
+  h1,
+  .role,
+  .fav-quote {
+    text-align: justify;
+    padding: 0;
+    margin: 5px;
+  }
+}
