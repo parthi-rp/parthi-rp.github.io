@@ -1,4 +1,7 @@
-for (let i = 0; i < 5; i++) {
-    console.log('Hello World');
+const person = {
+    name: 'parthi',
+    age: 22
 }
 
+for (let a in person)
+    console.log(a);
