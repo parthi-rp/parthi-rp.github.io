@@ -27,8 +27,8 @@ h4 > .work {
 }
 
 abbr {
-  border-style: double;
-  color: brown;
+  text-decoration: none;
+  color: blue ;
 }
 footer a {
   padding: 10px;
@@ -45,4 +45,17 @@ footer a {
     padding: 0;
     margin: 5px;
   }
+}
+
+.footer-container{
+  display: flexbox;
+  background-color: blue;
+  flex-wrap: wrap;
+  
+}
+.footer-box{
+background-color: brown;
+flex-direction: row;
+}
+
 }
