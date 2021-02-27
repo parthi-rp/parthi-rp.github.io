@@ -1,25 +1,25 @@
-//div by 3 => Fizz
-//div by 5 => Buzz
-//div by both => FizzBuzz
-//Not div by 3 or 5 => input
-//Not a number => 'Not a number'
+// speed limit => 70
+// 5 => 1 point
+// math.floor(1.3)
+// 12 points max => suspended
 
 
 
-function fizzbuzz(input) {
-    if (typeof (input) == 'number') {
-        if (input % 3 == 0 && input % 5 == 0)
-            return 'FizzBuzz';
-        else if (input % 3 == 0)
-            return 'Fizz';
-        else if (input % 5 == 0)
-            return 'Buzz';
-        else
-            return input;
-    }
+function checkSpeed(speed) {
+
+    let kmPerPoint = 5;
+    let speedLimit = 70;
+    let points = Math.floor((speed - speedLimit) / kmPerPoint);
+    let maxPoints = 12;
+
+
+    if (points == 0)
+        return 'ok';
+    else if (points <= maxPoints)
+        return points
     else
-        return NaN;
+        return 'License suspended';
 }
 
-const output = fizzbuzz('7');
-console.log(output);
+console.log(checkSpeed(77));
+
